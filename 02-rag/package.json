@@ -1,0 +1,19 @@
+{
+  "name": "02-rag",
+  "version": "1.0.0",
+  "description": "RAG system evaluation with OpenRAG",
+  "type": "module",
+  "scripts": {
+    "eval": "tsx eval-openrag.ts"
+  },
+  "dependencies": {
+    "openai": "^4.28.0",
+    "openrag-sdk": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "dotenv": "^16.4.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
